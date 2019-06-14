@@ -9,6 +9,7 @@ Good way to do bug hunting: being the most stupid and generate crashes l33t peop
 
 
 ##Install 
+
 Place the swaggydwarf.py file inside your ida/procs/ repository. 
 Load your binary and select inside the list the corresponding name. 
 Consider the base address to avoid disappointment. 
