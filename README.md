@@ -27,10 +27,17 @@ I did a little of test, but it is far to be enough.
 My purpose here is to help beginners like me to investigate that kind of stuff. 
 Emulation worst nothing, but it is better than nothing to start. 
 
+##TODO 
+
+Handle branch (SKIP/ BRANCH) insn on emulator. 
+What to do with conditional branch with symbolized entry?
+Implement wtf insn such PIECE on emulator. 
+
 
 ##BUG 
 
 LIT8 insn is not working, so it will put 0 instead handy isn't ?  
+Careful with insn that handle (S)LEB128. Insn size change according the size of the converted entry. Not tested so can trigger disassembly bug.  
 
 
 ##Beautiful screenshot 
